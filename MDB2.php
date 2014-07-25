@@ -306,7 +306,7 @@ class MDB2
      */
     static function classExists($classname)
     {
-        return class_exists($classname, false);
+        return class_exists($classname, true);
     }
 
     // }}}
