@@ -43,7 +43,7 @@
 //
 // $Id: MDB2_native_testcase.php 208329 2006-03-01 12:15:38Z lsmith $
 
-require_once 'MDB2_testcase.php';
+ 
 
 class MDB2_Native_TestCase extends MDB2_TestCase
 {

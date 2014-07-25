@@ -44,7 +44,7 @@
 //
 // $Id: MDB2_manager_testcase.php 292655 2009-12-26 15:53:03Z quipo $
 
-require_once 'MDB2_testcase.php';
+ 
 
 class MDB2_Manager_TestCase extends MDB2_TestCase {
     //test table name (it is dynamically created/dropped)

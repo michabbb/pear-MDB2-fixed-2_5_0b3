@@ -14,8 +14,8 @@ class MDB2_Connect_Test
      */
     function __construct()
     {
-        require_once 'MDB2.php';
-        require_once 'config.php';
+         
+         
 
         $this->_dsn = array(
                 'phptype'  => DSN_PHPTYPE,

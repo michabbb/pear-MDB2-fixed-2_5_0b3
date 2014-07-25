@@ -44,7 +44,7 @@
 //
 // $Id: Common.php 300551 2010-06-17 21:54:16Z quipo $
 
-require_once 'MDB2/LOB.php';
+ 
 
 /**
  * @package  MDB2

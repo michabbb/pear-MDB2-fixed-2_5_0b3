@@ -57,11 +57,11 @@
  php -q clitest.php teststorage testreplace
 */
 
-require_once 'test_setup.php';
-//require_once 'PHPUnit.php';
-require_once 'testUtils.php';
-require_once 'MDB2.php';
-require_once 'Console_TestListener.php';
+ 
+// 
+ 
+ 
+ 
 
 MDB2::loadFile('Date');
 

@@ -43,7 +43,7 @@
 //
 // $Id: MDB2_api_testcase.php 292658 2009-12-26 17:26:18Z quipo $
 
-require_once 'MDB2_testcase.php';
+ 
 
 class MDB2_Api_TestCase extends MDB2_TestCase {
     var $clear_tables = false;

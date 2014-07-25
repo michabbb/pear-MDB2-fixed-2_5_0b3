@@ -45,7 +45,7 @@
 // $Id: sqlite.php 215004 2006-06-18 21:59:05Z lsmith $
 //
 
-require_once 'MDB2/Driver/Native/Common.php';
+ 
 
 /**
  * MDB2 SQLite driver for the native module

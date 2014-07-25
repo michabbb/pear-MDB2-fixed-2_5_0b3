@@ -43,7 +43,7 @@
 //
 // $Id: MDB2_datatype_testcase.php 253572 2008-02-23 09:38:22Z quipo $
 
-require_once 'MDB2_testcase.php';
+ 
 
 /**
  * A test callback function to be used in the test class below for

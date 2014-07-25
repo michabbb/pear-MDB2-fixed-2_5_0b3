@@ -46,7 +46,7 @@
 // $Id: fbsql.php 292715 2009-12-28 14:06:34Z quipo $
 //
 
-require_once 'MDB2/Driver/Datatype/Common.php';
+ 
 
 /**
  * MDB2 FrontbaseSQL driver

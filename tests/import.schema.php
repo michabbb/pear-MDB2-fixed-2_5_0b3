@@ -1,5 +1,5 @@
 <?php
-require_once 'MDB2/Schema.php';
+ 
 
 $dsn = array(
     'phptype'  => 'mysql',

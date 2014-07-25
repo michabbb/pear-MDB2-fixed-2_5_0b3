@@ -46,7 +46,7 @@
 // $Id: querysim.php 247557 2007-12-03 20:35:07Z quipo $
 //
 
-require_once 'MDB2/Driver/Datatype/Common.php';
+ 
 
 /**
  * MDB2 QuerySim driver

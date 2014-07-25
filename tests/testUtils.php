@@ -73,7 +73,7 @@ function getBacktrace($errline = 0)
     return $message;
 }
 
-require_once 'PEAR.php';
+ 
 function errorHandlerPEAR($error_obj)
 {
     $message = "-- PEAR-Error --\n";

@@ -44,7 +44,7 @@
 //
 // $Id: pgsql.php 299393 2010-05-14 17:49:49Z afz $
 
-require_once 'MDB2/Driver/Manager/Common.php';
+ 
 
 /**
  * MDB2 MySQL driver for the management modules

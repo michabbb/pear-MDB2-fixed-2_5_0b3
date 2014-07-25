@@ -45,7 +45,7 @@
 // $Id: mysqli.php 295587 2010-02-28 17:16:38Z quipo $
 //
 
-require_once 'MDB2/Driver/Function/Common.php';
+ 
 
 /**
  * MDB2 MySQLi driver for the function modules

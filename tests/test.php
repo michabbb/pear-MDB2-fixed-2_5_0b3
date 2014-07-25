@@ -47,11 +47,11 @@
  This is a small test suite for MDB2 using PHPUnit
  */
 
-require_once 'test_setup.php';
-//require_once 'PHPUnit.php';
-require_once 'testUtils.php';
-require_once 'MDB2.php';
-require_once 'HTML_TestListener.php';
+ 
+// 
+ 
+ 
+ 
 
 function htmlErrorHandler($errno, $errstr, $errfile, $errline)
 {

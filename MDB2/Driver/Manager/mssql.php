@@ -47,7 +47,7 @@
 // $Id: mssql.php 295587 2010-02-28 17:16:38Z quipo $
 //
 
-require_once 'MDB2/Driver/Manager/Common.php';
+ 
 
 // {{{ class MDB2_Driver_Manager_mssql
 

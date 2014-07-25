@@ -44,7 +44,7 @@
 //
 // $Id: MDB2_extended_testcase.php 292655 2009-12-26 15:53:03Z quipo $
 
-require_once 'MDB2_testcase.php';
+ 
 
 class MDB2_Extended_TestCase extends MDB2_TestCase
 {

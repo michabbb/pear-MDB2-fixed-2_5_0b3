@@ -45,7 +45,7 @@
 // $Id: fbsql.php 254285 2008-03-05 12:55:57Z afz $
 //
 
-require_once 'MDB2/Driver/Manager/Common.php';
+ 
 
 /**
  * MDB2 FrontBase driver for the management modules

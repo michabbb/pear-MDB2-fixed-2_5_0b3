@@ -47,7 +47,7 @@
 // $Id: mssql.php 297614 2010-04-07 12:45:39Z davidc $
 //
 
-require_once 'MDB2/Driver/Datatype/Common.php';
+ 
 
 /**
  * MDB2 MS SQL driver

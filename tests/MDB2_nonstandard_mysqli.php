@@ -43,7 +43,7 @@
 //
 // $Id: MDB2_nonstandard_mysqli.php 224696 2006-12-09 14:31:54Z quipo $
 
-require_once 'MDB2_nonstandard_mysql.php';
+ 
 
 class MDB2_nonstandard_mysqli extends MDB2_nonstandard_mysql {
 

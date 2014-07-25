@@ -46,7 +46,7 @@
 //
 // $Id: ibase.php 302866 2010-08-29 11:17:24Z quipo $
 
-require_once 'MDB2/Driver/Datatype/Common.php';
+ 
 
 /**
  * MDB2 Firebird/Interbase driver
