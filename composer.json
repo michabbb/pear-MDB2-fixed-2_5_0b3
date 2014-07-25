@@ -1,0 +1,16 @@
+{
+    "name": "pear-MDB2-fixed-2_5_0b3",
+    "description": "a fixed version of PEAR/MDB2 version 2_5_0b3",
+    "license" : "GPL-2.0",
+    "authors": [
+    ],
+    "require": {
+        "php" : ">=5.3"
+    },
+
+    "autoload": {
+        "classmap": ["/"]
+    }
+
+}
+
