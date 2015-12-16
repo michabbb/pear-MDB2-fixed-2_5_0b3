@@ -1450,8 +1450,7 @@ class MDB2_Driver_Common extends PEAR
                 $userinfo = $method.': '.$userinfo;
             }
         }
-
-        $err = PEAR::raiseError(null, $code, $mode, $options, $userinfo, 'MDB2_Error', true);
+        $err = PEAR::_raiseError($this,null, $code, $mode, $options, $userinfo, 'MDB2_Error', true);
         if ($err->getMode() !== PEAR_ERROR_RETURN
             && isset($this->nested_transaction_counter) && !$this->has_transaction_error) {
             $this->has_transaction_error = $err;
@@ -1947,7 +1946,16 @@ class MDB2_Driver_Common extends PEAR
         if (null !== $module) {
             return call_user_func_array(array(&$this->modules[$module], $method), $params);
         }
-        trigger_error(sprintf('Call to undefined function: %s::%s().', get_class($this), $method), E_USER_ERROR);
+        if (in_array($method,array( 'setErrorHandling',
+                                    'raiseError',
+                                    'throwError',
+                                    'pushErrorHandling',
+                                    'popErrorHandling'))
+        ) {
+            call_user_func_array(array('PEAR', "_".$method), array_merge(array($this),$params));
+        } else {
+            trigger_error(sprintf('Call to undefined function: %s::%s().', get_class($this), $method), E_USER_ERROR);
+        }
     }
 
     // }}}
